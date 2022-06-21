@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MyAppClient" />
+            <option value="$PROJECT_DIR$/MyAppModel" />
+            <option value="$PROJECT_DIR$/MyAppNetworking" />
+            <option value="$PROJECT_DIR$/MyAppPersistence" />
+            <option value="$PROJECT_DIR$/MyAppRestServices" />
+            <option value="$PROJECT_DIR$/MyAppServer" />
+            <option value="$PROJECT_DIR$/MyAppServices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

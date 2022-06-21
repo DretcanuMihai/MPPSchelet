@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="mysite.css">
+    <title>Ticket Seller</title>
+</head>
+<body>
+<div id="inputDiv">
+    Id:<input type="number" id="id"><br>
+    Artist Name:<input type="text" id="artistName"><br>
+    Date And Time:<input type="datetime-local" id="dateTime"><br>
+    Place:<input type="text" id="place"><br>
+    Available Spots:<input type="number" id="availableSpots"><br>
+    Sold Spots:<input type="number" id="soldSpots"><br>
+</div>
+<div id="buttonsDiv">
+    <button onclick="create()">create</button>
+    <button onclick="readById()">readById</button>
+    <button onclick="readAll()">readAll</button>
+    <button onclick="update()">update</button>
+    <button onclick="deleteById()">delete</button>
+</div>
+<div id="infoDiv">
+</div>
+<script src="mysite.js"></script>
+</body>
+</html>
